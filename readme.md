@@ -28,7 +28,7 @@ You can find this notebook in the `notebooks/` directory; it documents the stepâ
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/RespFlow.git
+git clone https://github.com/Dashman23/RespFlow
 cd RespFlow
 python -m venv venv
 source venv/bin/activate       # On Windows: venv\Scripts\activate
