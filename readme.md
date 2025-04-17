@@ -1,4 +1,5 @@
-# RespFlow ![RespFlow](images/RespFlow.png)
+# RespFlow 
+![RespFlow](images/RespFlow.png)
 ## Python Toolkit for Respiratory Data Processing 
 RespFlow is a comprehensive Python toolkit for preprocessing, anomaly detection, and interpolation of respiratory time series data. It integrates:
 
