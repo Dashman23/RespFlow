@@ -4,7 +4,7 @@ RespFlow is a comprehensive Python toolkit for preprocessing, anomaly detection,
 
 - **ApplyBandpass**: Zero‑phase Butterworth bandpass filtering
 - **Preprocessing**: Batch filtering of raw CSV files with `ApplyBandpass`
-- **anomaly\_det**: Multi‑method anomaly detection (Quantile, IQR, Autoregression)
+- **anomaly_det**: Multi‑method anomaly detection (Quantile, IQR, Autoregression)
 - **DataCleaning**: End‑to‑end pipeline for anomaly removal, trimming, and spline interpolation
 
 Example outputs are stored in the `images/` folder and referenced below.
@@ -30,7 +30,7 @@ You can find this notebook in the `notebooks/` directory; it documents the step�
 git clone https://github.com/yourusername/RespFlow.git
 cd RespFlow
 python -m venv venv
-source venv/bin/activate       # On Windows: venv\\Scripts\\activate
+source venv/bin/activate       # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -84,8 +84,6 @@ y_mask, df_detected = anomaly_det(
 )
 ```
 
-
-
 ### 4. `DataCleaning`
 
 One‑stop function to:
@@ -113,15 +111,16 @@ clean_df = DataCleaning(
 
 #### Example Results:
 
-**Raw vs. RespFlow Cleaning**\
+**Raw vs. RespFlow Cleaning**  
 ![RespFlow Cleaning](images/respiration_comparison_big.png)
 
-**Anomalies Detection Comparisons**\
+**Anomalies Detection Comparisons**  
 ![RespFlow Cleaning](images/respiration_OutlierDetection.png)
 
-**Signal With Anomalies Removed**\
+**Signal With Anomalies Removed**  
 ![RespFlow Cleaning](images/respiration_AnomaliesRemoved.png)
 
 ---
 
-For detailed parameter descriptions and advanced usage, refer to the docstrings in each function.
+For detailed parameter descriptions and advanced usage, refer to the docstrings in each function. Contributions welcome!
+
