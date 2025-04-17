@@ -122,5 +122,5 @@ clean_df = DataCleaning(
 
 ---
 
-For detailed parameter descriptions and advanced usage, refer to the docstrings in each function. Contributions welcome!
+For detailed parameter descriptions and advanced usage, refer to the docstrings in each function.
 
