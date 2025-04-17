@@ -11,6 +11,19 @@ Example outputs are stored in the `images/` folder and referenced below.
 
 ---
 
+## Preliminary Notebook
+
+Before building **RespFlow**, an exploratory Jupyter notebook was used to prototype and evaluate signal‑processing and anomaly‑detection workflows. It contains:
+
+- Initial bandpass filter experiments and parameter tuning
+- Visualization of raw vs. filtered respiratory waveforms
+- Early anomaly detection trials (quantile, IQR, autoregression)
+- Spline interpolation and gap‑filling prototypes
+
+You can find this notebook in the `notebooks/` directory; it documents the step‑by‑step research that led to the final, streamlined functions below.
+
+---
+
 ## Installation
 
 ```bash
@@ -100,13 +113,15 @@ clean_df = DataCleaning(
 
 #### Example Results:
 
-**Spline Interpolation**\
+**Raw vs. RespFlow Cleaning**\
+![RespFlow Cleaning](images/respiration_comparison_big.png)
 
+**Anomalies Detection Comparisons**\
+![RespFlow Cleaning](images/respiration_OutlierDetection.png)
 
-**Final Cleaned Signal**\
-
+**Signal With Anomalies Removed**\
+![RespFlow Cleaning](images/respiration_AnomaliesRemoved.png)
 
 ---
 
-For detailed parameter descriptions and advanced usage, refer to the docstrings in each function. Contributions welcome!
-
+For detailed parameter descriptions and advanced usage, refer to the docstrings in each function.
